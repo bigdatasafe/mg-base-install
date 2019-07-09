@@ -70,7 +70,7 @@ ping -c2 192.168.2.7 >/dev/null
 if [ $? -eq 0 ];then
     SERVER='192.168.2.7'
 else
-    SERVER='kaifa.hc-yun.com:30027'
+    SERVER='soft.hc-yun.com'
 fi
 
 
