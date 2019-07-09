@@ -4,7 +4,7 @@ if [ -f './conf.cfg' ]; then
     source ./conf.cfg
 else
     echo -e "\n----------------------- Please Crate conf.cfg -----------------------\n"
-    curl http://kaifa.hc-yun.com:30027/base/conf.cfg
+    curl http://soft.hc-yun.com/base/conf.cfg
     echo -e "\n\n\n"
     exit 1
 fi
